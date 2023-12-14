@@ -1,0 +1,382 @@
+@import url('/reset.css');
+@import url('./fonts/fonts.css');
+
+
+/* @font-face {
+    font-family: 'Montserat';
+    src: url(/fonts/MontserratAlternates-Regular.ttf);
+} */
+
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} */
+
+body {
+    background-color: rgb(236, 233, 233);
+}
+
+/* button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    
+}  */
+
+#first {
+    display: flex;
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: center;
+}
+
+#second {
+    display: flex;
+    justify-content: center;
+}
+
+#in_second {
+    width: 1447px;
+    height: 1297px;
+    position: relative;
+    top: 178px;
+    background-color:white
+   
+}
+
+#in_first {
+   
+    background-color: white;
+    width: 1447px;
+    height: 304px;
+    position: relative;
+    top: 100px;
+    
+}
+
+#main {
+    width: 1280px;
+    height: 1054px;
+    position: relative;
+    top: 131px;
+    left: 99px;
+}
+
+#icons {
+    display: flex;
+    gap: 135px;
+    position: absolute;
+    top: 102px;
+    left: 204px;
+}
+
+#caption_1 {
+    position: absolute;
+    top: -36px;
+    color: grey;
+    font-size: 32px;
+}
+
+#caption_2 {
+    position: absolute;
+    top: -36px;
+    color: gray;
+    font-size: 32px;
+}
+
+#bolt{
+    width: 262px;
+    height: 224px;
+    border-radius: 40px;
+    border: 1px solid rgba(226, 232, 247, 1);
+    padding: 20px 12px 20px 12px;
+    gap: 10px;
+    position: relative;
+    box-shadow: 0px 4px 8px 0px rgba(179, 187, 205, 0.1);
+    background-color: rgba(246, 252, 255, 1);
+    
+   
+}
+
+#div_in_bolt {
+    width: 238px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+#icon_in_bolt {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#text_in_bolt {
+    width: 238px;
+    height: 44px;
+    text-align: center;
+    font-family:  'Montserat';
+    font-size: 18px;
+    line-height: 21.94px;
+    font-weight: 500;
+}
+
+#manager {
+    width: 1280px;
+    height: 96px;
+    box-sizing: 0px 0px 0.5px 0px #ECF3FB; 
+    
+    padding: 20px;
+    gap: 334px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+}
+
+#manager_button {
+    width: 161px;
+    height: 52px;
+    border-radius: 50px;
+    border: 1px solid #EE3124;
+    padding: 16px 32px;
+    gap: 10px;
+}
+
+#small_button {
+    width: 97px;
+    height: 20px;
+    font-family: 'Montserat';
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+   
+}
+
+#moscow_manager {
+    width: 745px;
+    height: 56px;
+    gap: 12px;
+    position: relative;
+   
+    
+}
+
+#moscow {
+   
+    position: absolute;
+    top: 34px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #7f7f7f;
+    font-family: 'Montserat';
+}
+
+#manag {
+    font-size: 18px;
+    line-height: 21.94px;
+    font-weight: 600px;
+    font-family: 'Montserat';
+
+}
+
+#olga {
+    width: 477px;
+    height: 203px;
+    border: 1px solid rgba(226, 232, 247, 1);
+    position: relative;
+    top: 120px;
+    border-radius: 40px;
+    gap: 12px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 10px 0 rgba(226, 232, 247, 0.3);
+}
+
+#info_olga {
+    display: flex;
+    gap: 12px;
+    height: 44px;
+    width: 397px;
+}
+
+#icon_olga {
+    width: 40px;
+    height: 40px;
+}
+
+#text_olga {
+    width: 397px;
+    height: 60px;
+    
+}
+
+#who_is_olga {
+    margin-left: 10px;
+}
+
+#olga_name {
+    width: 245px;
+    height: 20px;
+    font-weight: 500px;
+    line-height: 19.5px;
+    font-size: 16px;
+    color: rgba(36, 37, 46, 1);
+    font-family: 'Montserat';
+}
+
+#olga_prof {
+    width: 397px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: rgba(36, 37, 46, 1);
+    font-family: 'Montserat';
+
+
+}
+
+#text_olga {
+    width: 397px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: rgba(36, 37, 46, 1);
+    font-family: 'Montserat';
+    margin-top: 20px;
+}
+
+#icon_olga_absolute {
+    position: absolute;
+    top: -1px;
+    left: -20px;
+}
+
+#buttons {
+    width: 917px;
+    height: 171px;
+    border: 1px dashed rgba(151, 71, 255, 1);
+    position: relative;
+    top: 180px;
+    border-radius: 10px;
+    font-family: 'Montserat';
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.inner_buttons {
+    display: flex;
+    position: relative;
+}
+
+.base_button {
+    width: 225px;
+    height: 52px;
+    border-radius: 50px;
+    padding: 16px 32px;
+    gap: 10px;
+    border: 1px solid rgba(206, 213, 221, 1);
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+#but_1 {
+    top: 20px;
+    left: 20px;
+    background-color: #EE3124;
+    color: white;
+}
+
+#but_1:hover
+{
+    background-color: green;
+    color: black;
+}
+
+#but_2 {
+    left: 76px;
+    top: 20px;
+    background-color: #ae1a10;
+    color: white;
+}
+
+#but_2:active {
+    scale: 0.5;
+}
+
+#but_3 {
+    left: 134px;
+    top: 20px;
+    background-color: #7f7f7f;
+    color: white;
+}
+
+#but_4 {
+    left: 20px;
+    top: 44px;
+    color: black;
+    background-color: white;
+    border: 1.5px solid #EE3124;
+}
+
+#but_5 {
+    left: 76px;
+    top: 44px;
+    color: black;
+    background-color: white;
+    border: 1.5px solid #ae1a10;
+}
+
+#but_6 {
+    left: 134px;
+    top: 44px;
+    background-color: white;
+    border: 1.5pz solid lightgray;
+}
+
+#links {
+    width: 94px;
+    height: 120px;
+    border: 1px dashed rgba(151, 71, 255, 1);
+    position: absolute;
+    bottom: 0px;
+}
+
+.links {
+    width: 46px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 21.94px;
+    font-weight: 400;
+    font-family: 'Montserat';
+    color: rgba(36, 37, 46, 1);
+    position: relative;
+
+}
+
+#link_red {
+    color: #EE3124;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+#link_black {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
